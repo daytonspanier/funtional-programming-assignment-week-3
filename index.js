@@ -4,7 +4,7 @@ function consoleStyler(color, background, fontSize, txt) {
     var style = `color: ${color};`
     style += `background: ${background};`
     style += `font-size: ${fontSize};`
-    console.log(message, color, background, fontSize, txt);
+    console.log(message, style);
 }
 
 // Task 2: Build another console log message generator
